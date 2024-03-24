@@ -173,7 +173,7 @@ linksData?.unshift({
         id === 'print'
           ? () => handlePrint()
           : id === 'download'
-            ? () => window.open(resume?.basics.download, '_blank')
+            ? () => window.open('https://raw.githubusercontent.com/codecatcoffee/resume/main/public/assets/Santiago-Ramos_Full-Stack-Developer_Resume.pdf', '_blank')
             : id === 'theme'
               ? () => handleToggleClick()
               : () => {}
