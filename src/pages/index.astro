@@ -1,0 +1,26 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import { resume } from '@/schema'
+import About from '@/components/sections/About.astro'
+import Education from '@/components/sections/Education.astro'
+import Experience from '@/components/sections/Experience.astro'
+import Hero from '@/components/sections/Hero.astro'
+import KeyboarManager from '@/components/KeyboarManager.astro'
+import Languages from '@/components/sections/Languages.astro'
+import Projects from '@/components/sections/Projects.astro'
+import Skills from '@/components/sections/Skills.astro'
+---
+
+<Layout title={`${resume?.basics.name} | ${resume?.basics.label}`}>
+	<main class='w-full h-auto flex flex-col justify-start items-center px-4 py-6 pb-10 md:p-16 md:pb-24 print:md:pb-16 print:pt-4 space-y-8'>
+		<Hero />
+		<About />
+		<Experience />
+		<Education />
+		<Skills />
+		<div class='hidden print:block w-full h-7' />
+		<Projects />
+		<Languages />
+	</main>
+	<KeyboarManager />
+</Layout>

@@ -1,0 +1,175 @@
+{
+  "basics": {
+    "name": "Santiago Ramos",
+    "label": "Full Stack Developer building user-friendly products with close attention to detail.",
+    "image": "/assets/me.png",
+    "email": "hello@ccc.zone",
+    "url": "https://codecatcoffee.com",
+    "download": "/assets/Santiago-Ramos_Full-Stack-Developer_Resume.pdf",
+    "summary": "As a Full Stack Developer, I've successfully taken multiple products. I tackle tasks with enthusiasm and a commitment to excellence, whether it's adding features or fixing bugs. Currently, I work mostly with TypeScript, React, Next, Node and Tailwind. I have over 2 years of experience working remotely with clients and companies.",
+    "location": {
+      "city": "Ilo",
+      "country": "Perú",
+      "timezone": "UTC-5",
+      "maps": "https://www.google.com/maps/place/Ilo/@-17.6684255,-71.3789423,13z/data=!3m1!4b1!4m6!3m5!1s0x91445b07eeb2462b:0xf91ceb9b25c28cf5!8m2!3d-17.6421123!4d-71.3385505!16zL20vMDZrZmpn?entry=ttu"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "codecatcoffee",
+        "url": "https://github.com/"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "codecatcoffee",
+        "url": "https://linkedin.com/in/"
+      },
+      {
+        "network": "CodePen",
+        "username": "codecatcoffee",
+        "url": "https://codepen.io/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Since",
+      "position": "Full Stack Developer",
+      "remote": true,
+      "url": "https://since.global",
+      "startYear": "2023",
+      "summary": "Implemented new features, contributed to the development of the company's flagship product, and led the development of the sales module. Technologies used: TypeScript, Next, MongoDB."
+    },
+    {
+      "name": "Workana",
+      "position": "Freelancer Developer",
+      "remote": true,
+      "url": "https://workana.com/freelancer/17ffa35831ec4c7d66e49ab0cbad0e69",
+      "startYear": "2022",
+      "endYear": "2023",
+      "summary": "Completed multiple client projects with top ratings, ranking 5th among Freelancers in my country. Skilled in backend and frontend development using JavaScript, React, Node, MySQL."
+    }
+  ],
+  "education": [
+    {
+      "institution": "ONE - Oracle Next Education",
+      "url": "https://app.aluracursos.com/program/certificate/2f9ee185-6b9b-4ea5-837c-26ce5a36cbdd",
+      "area": "Backend Development and Business Agility",
+      "studyType": "Program ONE F2-T4",
+      "startYear": "2022",
+      "endYear": "2023"
+    },
+    {
+      "institution": "Universidad Privada de Tacna",
+      "url": "https://www.upt.edu.pe",
+      "area": "Medicine",
+      "studyType": "Bachelor's Degree",
+      "startYear": "2015",
+      "endYear": "2022"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Desarrollo de sitios 3D con Next Js y Typescript",
+      "date": "2024-02-26",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-0407b9c5-2f85-403c-a968-5e5d4c62bbde"
+    },
+    {
+      "name": "Python, Data Science en OCI y Oracle Analytics - ONE",
+      "date": "2023-10-04",
+      "issuer": "Alura",
+      "url": "https://app.aluracursos.com/user/santraez/degree-data-science-oci-oracle-one-15451/certificate"
+    },
+    {
+      "name": "TypeScript sin fronteras: guía definitiva",
+      "date": "2023-07-05",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-e3d6dd15-41d8-49b2-8df5-9db135da315a"
+    },
+    {
+      "name": "Principiante en Programación G4 - ONE",
+      "date": "2023-01-03",
+      "issuer": "Alura",
+      "url": "https://app.aluracursos.com/user/santraez/degree-programacion-primeros-pasos-grupo4-one-15491/certificate"
+    },
+    {
+      "name": "Master en React: Aprender ReactJS, Hooks, MERN, NodeJS, JWT+",
+      "date": "2022-08-15",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-3d46dba6-4663-48a9-b0e7-6c6f31f955d0"
+    }
+  ],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "Node",
+    "React",
+    "ReactNative",
+    "Electron",
+    "Next",
+    "Astro",
+    "Redux",
+    "TailwindCSS",
+    "Git",
+    "Docker",
+    "Linux",
+    "MongoDB",
+    "MySQL",
+    "Figma"
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "French",
+      "fluency": "Beginner"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Random",
+      "releaseDate": "2023",
+      "description": "Web Application for easy choices, sorting, grouping, and assigning tasks randomly.",
+      "url": "https://random.ccc.zone/",
+      "repository": "https://github.com/codecatcoffee/random",
+      "isActive": true,
+      "keywords": [
+        "JavaScript",
+        "React",
+        "Node",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Ten",
+      "releaseDate": "2023",
+      "description": "Transfers text/links between devices via unique 3-word key, accessible for 10 minutes.",
+      "url": "https://ten.ccc.zone/",
+      "repository": "https://github.com/codecatcoffee/ten",
+      "isActive": true,
+      "keywords": [
+        "JavaScript",
+        "React",
+        "Node",
+        "MongoDB"
+      ]
+    }
+  ]
+}
