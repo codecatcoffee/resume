@@ -1,54 +1,80 @@
-# Astro Starter Kit: Basics
+<div align='center'>
 
-```sh
-npm create astro@latest -- --template basics
+<img src='./public/logo.png' height='90px' width='auto' />
+<h2><em>Minimalist</em> Résumé styled for WEB and PDF</h2>
+<p>Based on the design by <a href='https://github.com/BartoszJarocki/cv'>Bartosz Jarocki</a> and <a href='https://github.com/midudev/minimalist-portfolio-json'>Miguel Ángel Durán</a></p>
+
+</div>
+
+<div align='center'>
+
+<a href='#🚀-getting-started'>Getting Started</a>
+<span>&nbsp;✦&nbsp;</span>
+<a href='#🧞-commands'>Commands</a>
+<span>&nbsp;✦&nbsp;</span>
+<a href='#🔑-license'>License</a>
+<span>&nbsp;✦&nbsp;</span>
+<a href='https://codecatcoffee.com'>Personal</a>
+
+</div>
+
+<p></p>
+
+<div align='center'>
+
+![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
+![GitHub stars](https://img.shields.io/github/stars/codecatcoffee/resume)
+![GitHub issues](https://img.shields.io/github/issues/codecatcoffee/resume)
+![GitHub forks](https://img.shields.io/github/forks/codecatcoffee/resume)
+![GitHub PRs](https://img.shields.io/github/issues-pr/codecatcoffee/resume)
+
+</div>
+
+<img src='./public/assets/preview.png' height='auto' width='100%' />
+
+## 🛠️ Stack
+
+- [**Astro**](https://astro.build/) - The web framework for the modern era.
+- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with syntax for types.
+- [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
+- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Dropdown menu with keyboard shortcuts made in pure Javascript.
+
+## 🚀 Getting Started
+
+### 1. Use this [repo](https://github.com/codecatcoffee/resume) as a template for an Astro project
+
+I use [pnpm](https://pnpm.io/installation) as a dependency manager and packager.
+
+```bash
+# Enable pnpm on MacOS, WSL & Linux:
+corepack enable
+corepack prepare pnpm@latest --activate
+
+# Initialize the project
+pnpm create astro@latest --template codecatcoffee/resume
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+### 2. Add your content:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Edit the `resume.json` file to create your own printable Resume/CV.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+### 3. Launch the development server:
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+# Enjoy the result
+pnpm dev
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
+Open [**http://localhost:4321**](http://localhost:4321/) in your browser to see the result 🚀
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+|     | Comando          | Acción                                        |
+| :-- | :--------------- | :-------------------------------------------- |
+| ⚙️  | `dev` o `start` | Launches a local development server at `localhost:4321`.  |
+| ⚙️  | `build`          | Checks for possible errors and builds for production in `./dist/`.      |
+| ⚙️  | `preview`        | Preview locally at `localhost:4321` |
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 🔑 License
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+[MIT](./LICENSE) - Created by [**CodeCatCoffee**](https://codecatcoffe.com).
