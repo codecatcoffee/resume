@@ -129,7 +129,6 @@ linksData?.unshift({
 <script>
   import 'ninja-keys'
   import type { NinjaKeys } from 'ninja-keys'
-  import { resume } from '@/schema'
   import { handleToggleClick } from '@/theme'
 
   interface Data {
@@ -162,6 +161,20 @@ linksData?.unshift({
     }
   }
 
+  const handleDownload = () => {
+    const pdfURL = 'https://raw.githubusercontent.com/codecatcoffee/resume/main/public/assets/Santiago-Ramos_Full-Stack-Developer_Resume.pdf'
+
+    const link = document.createElement('a')
+    link.style.display = 'none'
+    document.body.appendChild(link)
+
+    link.href = pdfURL
+    link.download = 'pdf_test.pdf'
+    link.click()
+
+    document.body.removeChild(link)
+  }
+
   const actionsData = parsedActions.map(({ id, section, title, icon, hotkey }) => {
     return {
       id,
@@ -173,7 +186,7 @@ linksData?.unshift({
         id === 'print'
           ? () => handlePrint()
           : id === 'download'
-            ? () => window.open('https://raw.githubusercontent.com/codecatcoffee/resume/main/public/assets/Santiago-Ramos_Full-Stack-Developer_Resume.pdf', '_blank')
+            ? () => handleDownload()
             : id === 'theme'
               ? () => handleToggleClick()
               : () => {}
