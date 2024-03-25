@@ -36,7 +36,7 @@
 
 - [**Astro**](https://astro.build/) - The web framework for the modern era.
 - [**Typescript**](https://www.typescriptlang.org/) - JavaScript with syntax for types.
-- [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
+- [**TailwindCSS**](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
 - [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Dropdown menu with keyboard shortcuts made in pure Javascript.
 
 ## 🚀 Getting Started
@@ -65,7 +65,7 @@ Edit the `resume.json` file to create your own printable Resume/CV.
 pnpm dev
 ```
 
-Open [**http://localhost:4321**](http://localhost:4321/) in your browser to see the result 🚀
+Open [**http://localhost:4321**](http://localhost:4321/) in your browser to see the result. 🚀
 
 ## 🧞 Commands
 
@@ -73,7 +73,7 @@ Open [**http://localhost:4321**](http://localhost:4321/) in your browser to see 
 | :-- | :--------------- | :-------------------------------------------- |
 | ⚙️  | `dev` o `start` | Launches a local development server at `localhost:4321`.  |
 | ⚙️  | `build`          | Checks for possible errors and builds for production in `./dist/`.      |
-| ⚙️  | `preview`        | Preview locally at `localhost:4321` |
+| ⚙️  | `preview`        | Preview locally at `localhost:4321`. |
 
 ## 🔑 License
 
