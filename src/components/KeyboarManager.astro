@@ -162,15 +162,13 @@ linksData?.unshift({
   }
 
   const handleDownload = () => {
-    // const URL = 'https://raw.githubusercontent.com/codecatcoffee/resume/main/public/assets/Santiago-Ramos_Full-Stack-Developer_Resume.pdf'
-    const URL = './assets/Santiago-Ramos_Full-Stack-Developer_Resume.pdf'
+    const URL = './assets/resume.pdf'
 
     const link = document.createElement('a')
     link.style.display = 'none'
 
     link.setAttribute('href', URL)
-    link.setAttribute('download', 'pdf_test.pdf')
-    link.setAttribute('target', '_blank')
+    link.setAttribute('download', 'Santiago-Ramos_Full-Stack-Developer_Resume.pdf')
 
     document.body.appendChild(link)
     link.click()

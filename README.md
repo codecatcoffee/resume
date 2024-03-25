@@ -2,7 +2,7 @@
 
 <img src='./public/logo.png' height='90px' width='auto' />
 <h2><em>Minimalist</em> Résumé styled for WEB and PDF</h2>
-<p>Based on the design by <a href='https://github.com/BartoszJarocki/cv'>Bartosz Jarocki</a> and <a href='https://github.com/midudev/minimalist-portfolio-json'>Miguel Ángel Durán</a></p>
+<p>Based on the design by <a href='https://github.com/BartoszJarocki/cv'>Bartosz Jarocki</a> and <a href='https://github.com/midudev/minimalist-portfolio-json'>Miguel Ángel Durán.</a></p>
 
 </div>
 
@@ -41,7 +41,7 @@
 
 ## 🚀 Getting Started
 
-### 1. Use this [repo](https://github.com/codecatcoffee/resume) as a template for an Astro project
+### 1. Use this [repo](https://github.com/codecatcoffee/resume) as a template for an Astro project:
 
 I use [pnpm](https://pnpm.io/installation) as a dependency manager and packager.
 
