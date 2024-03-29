@@ -3,6 +3,5 @@ import tailwind from '@astrojs/tailwind'
 
 export default defineConfig({
   integrations: [tailwind()],
-  site: 'https://codecatcoffee.github.io',
-  base: 'resume'
+  site: 'https://resume.ccc.zone'
 })
